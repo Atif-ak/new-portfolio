@@ -1,0 +1,73 @@
+body{
+    background-image: url('./board1.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+        /* overflow: hidden; */
+
+}
+#page{
+    display: flex;
+    bottom: 100px;
+    position: absolute;
+    font-size: 45px;
+    color:rgb(97, 92, 92);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 700px; 
+    /* margin-bottom: 100px; */ 
+    text-align: center;
+    font-weight: 600;
+}
+.main{
+    /* min-width: 400px;
+    min-height: 600px; */
+    /* float: left; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.heading{
+    /* display: flex;
+    text-align: end; */
+}
+#header{
+    /* margin-left: 246px; */
+    font-size: 70px;
+    font-family: 'Noto Serif JP', serif;
+    color: rgb(95, 117, 216);
+    box-shadow: 3px 4px 5px 0px rgba(245,238,238,0.75);
+-webkit-box-shadow: 3px 4px 5px 0px rgba(245,238,238,0.75);
+-moz-box-shadow: 3px 4px 5px 0px rgba(245,238,238,0.75);
+
+}
+.pre{
+   margin-right: 50px;
+   margin-bottom: 20px;
+    font-size: 70px;
+    font-family: 'Noto Serif JP', serif;
+        color:rgb(221, 220, 235);
+}
+#button{
+    width: 120px;
+    /* font-weight: 600; */
+    box-shadow: 2px 2px 7px -1px rgba(77,76,76,0.75);
+    -webkit-box-shadow: 2px 2px 7px -1px rgba(77,76,76,0.75);
+    -moz-box-shadow: 2px 2px 7px -1px rgba(77,76,76,0.75);
+    
+    color: grey;
+    float: right;
+    padding: 20px;
+    border: 2px solid grey;
+    margin-top: 35vh;
+    margin-right: 11px;
+    cursor: pointer;
+    /* opacity: 0.9; */
+    font-size: 17px;
+    /* background-color: lightslategrey; */
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+}
+

@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(227, 236, 240);
+}
+.div{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(227, 236, 240);
+    /* overflow: hidden; */
+    
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+.img{
+    width: 22%;
+    height: 55%;
+    background-image: url('atif.png');
+    background-size: cover
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url("./back.png");
+    justify-content: space-around;
+}
+#wrap{
+    width: 100vw;
+    background-color: rgb(238, 234, 241);
+}
+.list{
+    list-style: none;
+    /* background-color: rgb(238, 234, 241); */
+    margin-left: 15%;
+    padding: 4px;
+    font-family: 'Merriweather', serif;
+    background-image: url('https://www.pngkit.com/png/full/4-42005_blue-waves-png-blue-wave-background-png.png');
+
+}
+.projects{
+    border-radius: 5px;
+    width: 90vw;
+    height: 200vh;
+    background-color: rgb(152, 226, 248);
+    margin-left: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    width: 180px;
+    height: 200px;
+    margin: 35px;
+    border-radius: 6px;
+    box-shadow: 3px 0px 22px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 0px 22px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 0px 22px -2px rgba(0,0,0,0.75);
+}
+li{
+    list-style: none;
+
+}
+.works{
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: slategrey;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#food{
+background-image: url('./food1.png');
+background-size: cover;
+}
+
+.innerdiv{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.para{
+    line-height: 1;
+    font-family: 'Nunito', sans-serif;
+
+}
+#p{
+    color: indigo;
+}
+#o1{
+    color: rgb(13, 131, 199);
+}
+#r{
+    color: rgb(57, 230, 80);
+}
+#t{
+    color: rgb(250, 77, 149);
+}
+#f{
+    color: rgb(130, 0, 76);
+}
+#o2{
+    color: rgb(177, 77, 19);
+}
+#l{
+    color: rgb(13, 82, 7);
+}
+#i{
+    color: rgb(181, 226, 19);
+}
+#o{
+    color: rgb(110, 9, 9);
+}
+#end{
+    color: rgb(163, 153, 170);
+}
+#last{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#fb{
+background-image: url('https://i.pinimg.com/originals/af/9c/cb/af9ccb82cd058e86d5a487223980e31c.png');  
+  width: 40px;
+    height: 40px;
+    margin: 18px;
+    padding: 8px;
+    border-radius: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+#insta{
+background-image: url('https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-svg-vector-for-print.svg');
+    margin: 18px;
+padding: 8px;
+border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    cursor: pointer;
+
+}
+#tweet{
+    background-image: url('https://e7.pngegg.com/pngimages/499/32/png-clipart-overwatch-skype-belt-videotelephony-email-skype-logo-blue-telephone-call.png');
+    margin: 18px;
+padding: 8px;
+border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    cursor: pointer;
+
+}
